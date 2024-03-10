@@ -72,7 +72,7 @@ pipeline {
                  }
              }
          }
-/*
+
 	 stage ('Cleanup Artifacts') {
              steps {
                  script {
@@ -81,6 +81,7 @@ pipeline {
                  }
              }
          }
+/*
 	 stage("Trigger CD Pipeline") {
             steps {
                 script {
@@ -97,7 +98,7 @@ pipeline {
                body: "Project: ${env.JOB_NAME}<br/>" +
                    "Build Number: ${env.BUILD_NUMBER}<br/>" +
                    "URL: ${env.BUILD_URL}<br/>",
-               to: 'ashfaque.s510@gmail.com',                              
+               to: 'kamleshmjain1@gmail.com',                              
                attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
         }
      }
